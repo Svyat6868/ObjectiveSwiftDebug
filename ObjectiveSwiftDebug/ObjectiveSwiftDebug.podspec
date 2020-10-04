@@ -9,6 +9,8 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Vasyl" => "vasya6868@gmail.com" }
   spec.platform = :ios, "14.0"
+  spec.ios.vendored_frameworks = 'ObjectiveSwiftDebug.framework'
+  
   spec.source       = { :git => "https://github.com/Svyat6868/ObjectiveSwiftDebug.git", :tag => spec.version.to_s }
 
   spec.source_files  = "ObjectiveSwiftDebug/**/*.{h,m,swift}"
