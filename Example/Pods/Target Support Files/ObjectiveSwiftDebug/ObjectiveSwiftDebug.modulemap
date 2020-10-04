@@ -1,0 +1,6 @@
+framework module ObjectiveSwiftDebug {
+  umbrella header "ObjectiveSwiftDebug-umbrella.h"
+
+  export *
+  module * { export * }
+}
