@@ -1,0 +1,16 @@
+PODS:
+  - ObjectiveSwiftDebug (1.0.1)
+
+DEPENDENCIES:
+  - ObjectiveSwiftDebug
+
+SPEC REPOS:
+  trunk:
+    - ObjectiveSwiftDebug
+
+SPEC CHECKSUMS:
+  ObjectiveSwiftDebug: cf36fe014b7fc27a5a658f9759c106ec21c30f7d
+
+PODFILE CHECKSUM: 81e2201474d9faadbc814a92d0ee4cf2ca2ab1e1
+
+COCOAPODS: 1.9.3
