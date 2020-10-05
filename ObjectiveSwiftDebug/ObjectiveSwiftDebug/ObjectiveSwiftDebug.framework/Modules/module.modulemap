@@ -1,0 +1,11 @@
+framework module ObjectiveSwiftDebug {
+  umbrella header "ObjectiveSwiftDebug.h"
+
+  export *
+  module * { export * }
+}
+
+module ObjectiveSwiftDebug.Swift {
+    header "ObjectiveSwiftDebug-Swift.h"
+    requires objc
+}

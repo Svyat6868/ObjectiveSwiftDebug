@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ObjectiveSwiftDebug"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.3"
   spec.summary      = "ObjectiveSwiftDebug 123456789."
   spec.description  = "ObjectiveSwiftDebug is test objective c integration. "
 
@@ -9,11 +9,12 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Vasyl" => "vasya6868@gmail.com" }
   spec.platform = :ios, "14.0"
-  spec.ios.vendored_frameworks = 'ObjectiveSwiftDebug.framework'
+  #spec.ios.vendored_frameworks = 'ObjectiveSwiftDebug.framework'
+  spec.static_framework = true
   
   spec.source       = { :git => "https://github.com/Svyat6868/ObjectiveSwiftDebug.git", :tag => spec.version.to_s }
 
-  spec.source_files  = "ObjectiveSwiftDebug/**/*.{h,m,swift}"
+  spec.source_files  = "ObjectiveSwiftDebug/**/*.{h,m,swift,framework}"
   spec.swift_version = "5.4"
   
 end
